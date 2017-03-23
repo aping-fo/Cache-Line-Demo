@@ -1,7 +1,7 @@
 package com.cacheline;
 
 /**
- * 为共享例子
+ * 伪共享例子
  * @author shiping.fu
  *
  */
