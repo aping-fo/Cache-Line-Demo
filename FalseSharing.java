@@ -1,4 +1,4 @@
-package com.cacheline;
+﻿package com.cacheline;
 
 /**
  * 伪共享例子
@@ -12,10 +12,7 @@ public class FalseSharing implements Runnable {
 	private final int arrayIndex;
 
 	public final static class VolatileLong {
-
-//		public long p8, p9, p10, p11, p12, p13, p14; // comment out
 		public volatile long value = 0L;
-		public long p1, p2, p3, p4, p5, p6, p7; // comment out
 	}
 
 	static {
